@@ -1,0 +1,148 @@
+13:12:51.911 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.17.0
+13:12:51.916 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:12:52.406 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=D\:\\git\\browserstack-tests, user.dir=D\:\\git\\browserstack-tests, localrepository=D\:\\Maven\\repository}
+13:12:52.407 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : D:\git\browserstack-tests\browserstack.yml
+13:12:52.542 [main] ERROR c.b.config.BrowserStackConfig - Malformed browserstack.yml file - while parsing a block mapping
+ in 'string', line 6, column 1:
+    userName: BROWSERSTACK_USERNAME
+    ^
+expected <block end>, but found '<block mapping start>'
+ in 'string', line 65, column 2:
+     browserStackLocalOptions:
+     ^
+.
+13:12:52.551 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:12:52.559 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+13:12:53.111 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : D:\git\browserstack-tests\target\surefire\surefire5476182088293424568tmp
+13:12:53.132 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.BStackLocalTest, com.browserstack.PremierTest, com.browserstack.SeleniumTest
+13:12:53.195 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+13:12:53.211 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+13:12:53.211 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+13:12:53.211 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+13:12:53.212 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:12:53.962 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-use.browserstack.com","hub-usw.browserstack.com","hub-euw.browserstack.com"]
+13:12:54.428 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 457ms
+13:12:54.955 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 513ms
+13:12:55.589 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 632ms
+13:12:55.608 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-use.browserstack.com
+13:12:56.013 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+13:13:13.310 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:13:34.487 [setUp@null] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-use.browserstack.com
+13:13:34.982 [PremierTest-0@null] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+13:13:38.449 [addProductToCart@null] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+13:13:40.047 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/hoxcp8kh5ozgdulhr6g1qj6hnluzlmbi1wodsxf9 to view build report, insights, and many more debugging information all at one place!
+
+13:13:40.302 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+13:13:40.308 [Thread-0] WARN  c.browserstack.utils.UtilityMethods - Unable to show build URL, as build capability is not used
+13:13:40.309 [Thread-0] INFO  c.b.config.BrowserStackConfig - WARN
+13:18:05.577 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.17.0
+13:18:05.581 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:18:06.005 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=D\:\\git\\browserstack-tests, user.dir=D\:\\git\\browserstack-tests, localrepository=D\:\\Maven\\repository}
+13:18:06.006 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : D:\git\browserstack-tests\browserstack.yml
+13:18:06.097 [main] ERROR c.b.config.BrowserStackConfig - Malformed browserstack.yml file - while parsing a block mapping
+ in 'string', line 6, column 1:
+    userName: BROWSERSTACK_USERNAME
+    ^
+expected <block end>, but found '<block mapping start>'
+ in 'string', line 65, column 2:
+     browserStackLocalOptions:
+     ^
+.
+13:18:06.102 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:18:06.109 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+13:18:06.890 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : D:\git\browserstack-tests\target\surefire\surefire11228605194541643794tmp
+13:18:06.924 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.BStackLocalTest, com.browserstack.PremierTest, com.browserstack.SeleniumTest
+13:18:06.967 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+13:18:06.976 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+13:18:06.976 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+13:18:06.976 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.5
+13:18:06.976 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:18:08.027 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-use.browserstack.com","hub-usw.browserstack.com","hub-euw.browserstack.com"]
+13:18:08.503 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 462ms
+13:18:08.978 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 470ms
+13:18:09.665 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 684ms
+13:18:09.670 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-use.browserstack.com
+13:18:09.931 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+13:18:10.974 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:18:25.817 [setUp@null] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-use.browserstack.com
+13:18:26.369 [PremierTest-0@null] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+13:18:27.531 [addProductToCart@null] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+13:18:29.742 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/sensu7f00wtkjb00whft8ubkf68ynlfaj4akujxl to view build report, insights, and many more debugging information all at one place!
+
+13:18:29.936 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+13:18:29.954 [Thread-0] WARN  c.browserstack.utils.UtilityMethods - Unable to show build URL, as build capability is not used
+13:18:29.954 [Thread-0] INFO  c.b.config.BrowserStackConfig - WARN
+13:22:26.372 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.17.0
+13:22:26.376 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:22:26.800 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=D\:\\git\\browserstack-tests, user.dir=D\:\\git\\browserstack-tests, localrepository=D\:\\Maven\\repository}
+13:22:26.802 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : D:\git\browserstack-tests\browserstack.yml
+13:22:26.915 [main] ERROR c.b.config.BrowserStackConfig - Malformed browserstack.yml file - while parsing a block mapping
+ in 'string', line 6, column 1:
+    userName: BROWSERSTACK_USERNAME
+    ^
+expected <block end>, but found '<block mapping start>'
+ in 'string', line 65, column 2:
+     browserStackLocalOptions:
+     ^
+.
+13:22:26.918 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:22:26.923 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+13:22:27.367 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : D:\git\browserstack-tests\target\surefire\surefire16055834535458427736tmp
+13:22:27.385 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.BStackLocalTest, com.browserstack.PremierTest, com.browserstack.SeleniumTest
+13:22:27.422 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+13:22:27.428 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+13:22:27.428 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+13:22:27.428 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.4
+13:22:27.429 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:22:28.140 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-use.browserstack.com","hub-usw.browserstack.com","hub-euw.browserstack.com"]
+13:22:28.628 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 485ms
+13:22:29.088 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 455ms
+13:22:29.702 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 612ms
+13:22:29.705 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-usw.browserstack.com
+13:22:29.942 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+13:22:31.282 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:22:39.018 [setUp@null] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-usw.browserstack.com
+13:22:39.366 [PremierTest-0@null] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+13:22:40.807 [addProductToCart@null] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+13:22:42.796 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/beiztvqndh2sorvorqnboilc2knihhhlmxshsbe5 to view build report, insights, and many more debugging information all at one place!
+
+13:22:42.994 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+13:22:43.002 [Thread-0] WARN  c.browserstack.utils.UtilityMethods - Unable to show build URL, as build capability is not used
+13:22:43.002 [Thread-0] INFO  c.b.config.BrowserStackConfig - WARN
+13:26:57.939 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.17.0
+13:26:57.943 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+13:26:58.432 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=D\:\\git\\browserstack-tests, user.dir=D\:\\git\\browserstack-tests, localrepository=D\:\\Maven\\repository}
+13:26:58.436 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : D:\git\browserstack-tests\browserstack.yml
+13:26:58.980 [main] ERROR c.b.config.BrowserStackConfig - Malformed browserstack.yml file - while parsing a block mapping
+ in 'string', line 6, column 1:
+    userName: promutuelassuran_BeCR8b
+    ^
+expected <block end>, but found '<block mapping start>'
+ in 'string', line 65, column 2:
+     browserStackLocalOptions:
+     ^
+.
+13:26:58.984 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+13:26:58.995 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+13:26:59.767 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : D:\git\browserstack-tests\target\surefire\surefire5278526958753192205tmp
+13:26:59.808 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.BStackLocalTest, com.browserstack.PremierTest, com.browserstack.SeleniumTest
+13:26:59.878 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+13:26:59.887 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+13:26:59.887 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+13:26:59.887 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.4
+13:26:59.887 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+13:27:00.743 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-use.browserstack.com","hub-usw.browserstack.com","hub-euw.browserstack.com"]
+13:27:01.257 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 510ms
+13:27:01.847 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-usw.browserstack.com HUB IS: 586ms
+13:27:02.478 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 622ms
+13:27:02.480 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-use.browserstack.com
+13:27:10.056 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+13:27:12.709 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+13:27:21.733 [setUp@null] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-use.browserstack.com
+13:27:22.514 [PremierTest-0@null] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+13:27:23.641 [addProductToCart@null] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+13:27:25.376 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/dhsvdsmofihda3zi7s1rypgt4ihfzvq0ktm4r6lt to view build report, insights, and many more debugging information all at one place!
+
+13:27:25.612 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+13:27:25.620 [Thread-0] WARN  c.browserstack.utils.UtilityMethods - Unable to show build URL, as build capability is not used
+13:27:25.621 [Thread-0] INFO  c.b.config.BrowserStackConfig - WARN

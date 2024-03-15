@@ -54,3 +54,84 @@ task exempleJavaTest(type: Test) {
         jvmArgs "-javaagent:${browserstackSDKArtifact.file}"
     }
 }
+
+task exempleJavaTest(type: Test) {
+    useTestNG() {
+        dependsOn cleanTest
+        useDefaultListeners = true
+        suites "config/EAQSWT_SEL_Auto_Vehicule_auto.testng.xml"
+        jvmArgs "-javaagent:${browserstackSDKArtifact.file}"
+    }
+}
+
+task exempleJavaTest(type: Test) {
+    useTestNG() {
+        dependsOn cleanTest
+        useDefaultListeners = true
+        suites "config/EAQSWT_SEL_Auto_Vehicule_autocaravane.testng.xml"
+        jvmArgs "-javaagent:${browserstackSDKArtifact.file}"
+    }
+}
+
+task exempleJavaTest(type: Test) {
+    useTestNG() {
+        dependsOn cleanTest
+        useDefaultListeners = true
+        suites "config/EAQSWT_SEL_Auto_Vehicule_caravane_portee.testng.xml"
+        jvmArgs "-javaagent:${browserstackSDKArtifact.file}"
+    }
+}
+
+task exempleJavaTest(type: Test) {
+    useTestNG() {
+        dependsOn cleanTest
+        useDefaultListeners = true
+        suites "config/EAQSWT_SEL_Auto_Vehicule_caravane.testng.xml"
+        jvmArgs "-javaagent:${browserstackSDKArtifact.file}"
+    }
+}
+
+task exempleJavaTest(type: Test) {
+    useTestNG() {
+        dependsOn cleanTest
+        useDefaultListeners = true
+        suites "config/EAQSWT_SEL_Auto_Vehicule_cyclomoteur.testng.xml"
+        jvmArgs "-javaagent:${browserstackSDKArtifact.file}"
+    }
+}
+
+task exempleJavaTest(type: Test) {
+    useTestNG() {
+        dependsOn cleanTest
+        useDefaultListeners = true
+        suites "config/EAQSWT_SEL_Auto_Vehicule_moto.testng.xml"
+        jvmArgs "-javaagent:${browserstackSDKArtifact.file}"
+    }
+}
+
+task exempleJavaTest(type: Test) {
+    useTestNG() {
+        dependsOn cleanTest
+        useDefaultListeners = true
+        suites "config/EAQSWT_SEL_Auto_Vehicule_motoneige.testng.xml"
+        jvmArgs "-javaagent:${browserstackSDKArtifact.file}"
+    }
+}
+
+task exempleJavaTest(type: Test) {
+    useTestNG() {
+        dependsOn cleanTest
+        useDefaultListeners = true
+        suites "config/EAQSWT_SEL_Auto_Vehicule_tente_caravane.testng.xml"
+        jvmArgs "-javaagent:${browserstackSDKArtifact.file}"
+    }
+}
+
+task exempleJavaTest(type: Test) {
+    useTestNG() {
+        dependsOn cleanTest
+        useDefaultListeners = true
+        suites "config/EAQSWT_SEL_Auto_Vehicule_VTT.testng.xml"
+        jvmArgs "-javaagent:${browserstackSDKArtifact.file}"
+    }
+}

@@ -9,13 +9,41 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Cross-Platform</th></tr>
-<tr><td><a href="#t0">PremierTest-0</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">10 702</td><td></td><td></td></tr>
+<tr><td><a href="#t0">EAQSWT_SEL_Auto_Vehicule_auto-0</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">246 944</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Cross-Platform</th></tr></tbody><tbody id="t0"><tr><th colspan="4">PremierTest-0 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.browserstack.PremierTest</td><td><a href="#m0">addProductToCart</a></td><td rowspan="1">1707935242184</td><td rowspan="1">1117</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Cross-Platform</th></tr></tbody><tbody id="t0"><tr><th colspan="4">EAQSWT_SEL_Auto_Vehicule_auto-0 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.browserstack.EAQSWT_SEL_Auto_Vehicule_auto</td><td><a href="#m0">Soumission_simple</a></td><td rowspan="1">1710008481891</td><td rowspan="1">231978</td></tr></tbody>
 </table>
-<h2>PremierTest-0</h2><h3 id="m0">com.browserstack.PremierTest#addProductToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at com.browserstack.PremierTest.addProductToCart(PremierTest.java:17)
+<h2>EAQSWT_SEL_Auto_Vehicule_auto-0</h2><h3 id="m0">com.browserstack.EAQSWT_SEL_Auto_Vehicule_auto#Soumission_simple</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[@id=&apos;upcomingPolicyRadioButton&apos;]/div[2]/span (tried for 90 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.browserstack.EAQSWT_SEL_Auto_Vehicule_auto.Soumission_simple(EAQSWT_SEL_Auto_Vehicule_auto.java:188)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;upcomingPolicyRadioButton&apos;]/div[2]/span&quot;}
+  (Session info: chrome=120.0.6099.144)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc9615dc3f8ffd7d5d337f0ecb43ae952fa1d0cc, findElement {using=xpath, value=//div[@id=&apos;upcomingPolicyRadioButton&apos;]/div[2]/span}]
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: chrome, chromedriverArgs: [--adb-port=5038], chromedriverPort: 18081, databaseEnabled: false, desired: {browserName: chrome, chromedriverArgs: [--adb-port=5038], chromedriverPort: 18081, deviceName: android, goog:chromeOptions: {args: [start-maximized, --proxy-bypass-list=&lt;-loopb..., test-type, --proxy-server=http://209.2..., --disable-features=Translate]}, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8201, udid: 35051FDH2006VA}, deviceApiLevel: 33, deviceManufacturer: Google, deviceModel: Pixel 7, deviceName: 35051FDH2006VA, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 35051FDH2006VA, goog:chromeOptions: {args: [start-maximized, --proxy-bypass-list=&lt;-loopb..., test-type, --proxy-server=http://209.2..., --disable-features=Translate]}, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 0, optimalHubUrl: hub-use.browserstack.com, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 13, skipServerInstallation: true, statBarHeight: 118, systemPort: 8201, takesScreenshot: true, udid: 35051FDH2006VA, viewportRect: {height: 2101, left: 0, top: 118, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: dc9615dc3f8ffd7d5d337f0ecb43ae952fa1d0cc
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 24 more
+... Removed 22 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

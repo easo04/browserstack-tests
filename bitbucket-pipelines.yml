@@ -22,3 +22,57 @@ pipelines:
             script:
             - mvn clean
             - mvn test -P exemple-java-test
+
+        - step:
+            name: Run EAQSWT_SEL_Auto_Vehicule_auto
+            script:
+            - mvn clean
+            - mvn test -P EAQSWT_SEL_Auto_Vehicule_auto
+
+       - step:
+            name: Run EAQSWT_SEL_Auto_Vehicule_autocaravane
+            script:
+            - mvn clean
+            - mvn test -P EAQSWT_SEL_Auto_Vehicule_autocaravane
+
+       - step:
+            name: Run EAQSWT_SEL_Auto_Vehicule_caravane_portee
+            script:
+            - mvn clean
+            - mvn test -P EAQSWT_SEL_Auto_Vehicule_caravane_portee
+
+       - step:
+            name: Run EAQSWT_SEL_Auto_Vehicule_caravane
+            script:
+            - mvn clean
+            - mvn test -P EAQSWT_SEL_Auto_Vehicule_caravane
+
+       - step:
+            name: Run EAQSWT_SEL_Auto_Vehicule_cyclomoteur
+            script:
+            - mvn clean
+            - mvn test -P EAQSWT_SEL_Auto_Vehicule_cyclomoteur
+
+       - step:
+            name: Run EAQSWT_SEL_Auto_Vehicule_moto
+            script:
+            - mvn clean
+            - mvn test -P EAQSWT_SEL_Auto_Vehicule_moto
+
+       - step:
+            name: Run EAQSWT_SEL_Auto_Vehicule_motoneige
+            script:
+            - mvn clean
+            - mvn test -P EAQSWT_SEL_Auto_Vehicule_motoneige
+
+       - step:
+            name: Run EAQSWT_SEL_Auto_Vehicule_tente_caravane
+            script:
+            - mvn clean
+            - mvn test -P EAQSWT_SEL_Auto_Vehicule_tente_caravane
+
+       - step:
+            name: Run EAQSWT_SEL_Auto_Vehicule_VTT
+            script:
+            - mvn clean
+            - mvn test -P EAQSWT_SEL_Auto_Vehicule_VTT

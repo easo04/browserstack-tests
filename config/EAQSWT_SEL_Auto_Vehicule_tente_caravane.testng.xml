@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cross-Platform">
+    <test name="EAQSWT_SEL_Auto_Vehicule_tente_caravane">
+        <classes>
+            <class name="com.browserstack.EAQSWT_SEL_Auto_Vehicule_tente_caravane" />
+        </classes>
+    </test>
+</suite>

@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Cross-Platform]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" name="PremierTest-0(failed)" verbose="0">
+<suite thread-count="1" parallel="tests" name="Failed suite [Cross-Platform]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="1" name="EAQSWT_SEL_Auto_Vehicule_auto-0(failed)" verbose="0">
+    <parameter name="platform" value="0"/>
     <classes>
-      <class name="com.browserstack.PremierTest">
+      <class name="com.browserstack.EAQSWT_SEL_Auto_Vehicule_auto">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="addProductToCart"/>
+          <include name="Soumission_simple"/>
         </methods>
-      </class> <!-- com.browserstack.PremierTest -->
+      </class> <!-- com.browserstack.EAQSWT_SEL_Auto_Vehicule_auto -->
     </classes>
-  </test> <!-- PremierTest-0(failed) -->
+  </test> <!-- EAQSWT_SEL_Auto_Vehicule_auto-0(failed) -->
 </suite> <!-- Failed suite [Cross-Platform] -->

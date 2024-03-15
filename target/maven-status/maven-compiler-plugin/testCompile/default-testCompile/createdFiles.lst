@@ -1,4 +1,13 @@
-com\browserstack\SeleniumTest.class
-com\browserstack\BStackLocalTest.class
-com\browserstack\BStackDemoTest.class
+com\browserstack\EAQSWT_SEL_Auto_Vehicule_moto.class
 com\browserstack\PremierTest.class
+com\browserstack\EAQSWT_SEL_Auto_Vehicule_motoneige.class
+com\browserstack\BStackLocalTest.class
+com\browserstack\EAQSWT_SEL_Auto_Vehicule_caravane_portee.class
+com\browserstack\EAQSWT_SEL_Auto_Vehicule_VTT.class
+com\browserstack\EAQSWT_SEL_Auto_Vehicule_tente_caravane.class
+com\browserstack\EAQSWT_SEL_Auto_Vehicule_autocaravane.class
+com\browserstack\BStackDemoTest.class
+com\browserstack\SeleniumTest.class
+com\browserstack\EAQSWT_SEL_Auto_Vehicule_cyclomoteur.class
+com\browserstack\EAQSWT_SEL_Auto_Vehicule_auto.class
+com\browserstack\EAQSWT_SEL_Auto_Vehicule_caravane.class

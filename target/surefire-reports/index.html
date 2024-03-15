@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Cross_Platform" class="navigator-link ">
-                    <span>D:\git\browserstack-tests\config\exemple-java-test.testng.xml</span>
+                    <span>D:\git\smartphone-browserstack-tests\config\EAQSWT_SEL_Auto_Vehicule_auto.testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Cross_Platform">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Cross_Platform" title="com.browserstack.PremierTest" class="method navigator-link" hash-for-method="addProductToCart">addProductToCart</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Cross_Platform" title="com.browserstack.EAQSWT_SEL_Auto_Vehicule_auto" class="method navigator-link" hash-for-method="Soumission_simple">Soumission_simple</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Cross_Platform -->
@@ -122,18 +122,46 @@
           <div class="suite-Cross_Platform-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.browserstack.PremierTest</span>
+              <span class="class-name">com.browserstack.EAQSWT_SEL_Auto_Vehicule_auto</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addProductToCart">
-                  </a> <!-- addProductToCart -->
-                  <span class="method-name">addProductToCart</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at com.browserstack.PremierTest.addProductToCart(PremierTest.java:17)
+                  <a name="Soumission_simple">
+                  </a> <!-- Soumission_simple -->
+                  <span class="method-name">Soumission_simple</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[@id=&apos;upcomingPolicyRadioButton&apos;]/div[2]/span (tried for 90 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.browserstack.EAQSWT_SEL_Auto_Vehicule_auto.Soumission_simple(EAQSWT_SEL_Auto_Vehicule_auto.java:188)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;upcomingPolicyRadioButton&apos;]/div[2]/span&quot;}
+  (Session info: chrome=120.0.6099.144)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dc9615dc3f8ffd7d5d337f0ecb43ae952fa1d0cc, findElement {using=xpath, value=//div[@id=&apos;upcomingPolicyRadioButton&apos;]/div[2]/span}]
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, browserName: chrome, chromedriverArgs: [--adb-port=5038], chromedriverPort: 18081, databaseEnabled: false, desired: {browserName: chrome, chromedriverArgs: [--adb-port=5038], chromedriverPort: 18081, deviceName: android, goog:chromeOptions: {args: [start-maximized, --proxy-bypass-list=&lt;-loopb..., test-type, --proxy-server=http://209.2..., --disable-features=Translate]}, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8201, udid: 35051FDH2006VA}, deviceApiLevel: 33, deviceManufacturer: Google, deviceModel: Pixel 7, deviceName: 35051FDH2006VA, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 35051FDH2006VA, goog:chromeOptions: {args: [start-maximized, --proxy-bypass-list=&lt;-loopb..., test-type, --proxy-server=http://209.2..., --disable-features=Translate]}, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 0, optimalHubUrl: hub-use.browserstack.com, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 13, skipServerInstallation: true, statBarHeight: 118, systemPort: 8201, takesScreenshot: true, udid: 35051FDH2006VA, viewportRect: {height: 2101, left: 0, top: 118, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: dc9615dc3f8ffd7d5d337f0ecb43ae952fa1d0cc
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:171)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:168)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 24 more
+... Removed 22 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -142,18 +170,19 @@
         </div> <!-- panel Cross_Platform -->
         <div panel-name="test-xml-Cross_Platform" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\git\browserstack-tests\config\exemple-java-test.testng.xml</span>
+            <span class="header-content">D:\git\smartphone-browserstack-tests\config\EAQSWT_SEL_Auto_Vehicule_auto.testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Cross-Platform&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;PremierTest-0&quot; verbose=&quot;0&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; parallel=&quot;tests&quot; name=&quot;Cross-Platform&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;EAQSWT_SEL_Auto_Vehicule_auto-0&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;0&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.browserstack.PremierTest&quot;/&gt;
+      &lt;class name=&quot;com.browserstack.EAQSWT_SEL_Auto_Vehicule_auto&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- PremierTest-0 --&gt;
+  &lt;/test&gt; &lt;!-- EAQSWT_SEL_Auto_Vehicule_auto-0 --&gt;
 &lt;/suite&gt; &lt;!-- Cross-Platform --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -165,7 +194,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">PremierTest-0 (1 class)</span>
+                <span class="test-name">EAQSWT_SEL_Auto_Vehicule_auto-0 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -193,14 +222,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addProductToCart')
-data.setCell(0, 2, 'com.browserstack.PremierTest')
-data.setCell(0, 3, 1117);
+data.setCell(0, 1, 'Soumission_simple')
+data.setCell(0, 2, 'com.browserstack.EAQSWT_SEL_Auto_Vehicule_auto')
+data.setCell(0, 3, 231978);
 window.suiteTableData['Cross_Platform']= { tableData: data, tableDiv: 'times-div-Cross_Platform'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Cross_Platform">
               </div> <!-- times-div-Cross_Platform -->
             </div> <!-- times-div -->
@@ -226,7 +255,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.browserstack.PremierTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.browserstack.EAQSWT_SEL_Auto_Vehicule_auto</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
@@ -234,12 +263,12 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">addProductToCart</span>
-                <span class="method-start">7898 ms</span>
+                <span class="method-name">Soumission_simple</span>
+                <span class="method-start">13860 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9458 ms</span>
+                <span class="method-start">245967 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

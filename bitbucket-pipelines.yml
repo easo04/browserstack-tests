@@ -12,13 +12,17 @@ pipelines:
     run-tests:
       - parallel:
         - step:
-            name: Run sample-test
+            name: Run Mobilebis_EAQSWT_SEL_Habitation_proprietaire
             script:
             - mvn clean
-            - mvn test -P sample-test
-
+            - mvn test -P Mobilebis_EAQSWT_SEL_Habitation_proprietaire
         - step:
-            name: Run PremierTest
+            name: Run Mobilebis_EAQSWT_SEL_Habitation_coproprietaire
             script:
             - mvn clean
-            - mvn test -P exemple-java-test
+            - mvn test -P Mobilebis_EAQSWT_SEL_Habitation_coproprietaire
+        - step:
+            name: Run Mobilebis_EAQSWT_SEL_Habitation_locataire
+            script:
+            - mvn clean
+            - mvn test -P Mobilebis_EAQSWT_SEL_Habitation_locataire

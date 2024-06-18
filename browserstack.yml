@@ -30,13 +30,15 @@ framework: testng
 # Platforms object contains all the browser / device combinations you want to test on.
 # Entire list available here -> (https://www.browserstack.com/list-of-browsers-and-platforms/automate)
 platforms:
-  - os: Windows
-    osVersion: 11
-    browserName: Chrome
-    browserVersion: latest
+  - deviceName: Samsung Galaxy S23 Ultra
+    osVersion: 13.0
+    browserName: chrome
+    deviceOrientation: portrait
+  - deviceName: Samsung Galaxy Tab S9
+    osVersion: 13.0
+    browserName: chrome
+    deviceOrientation: portrait
 browserstackLocal: true
-browserStackLocalOptions:
-  forceLocal: true
 buildName: browserstack-build-1
 projectName: BrowserStack Sample
     

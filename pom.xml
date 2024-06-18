@@ -18,7 +18,7 @@
         <surefire.version>2.19.1</surefire.version>
         <selenium.version>4.17.0</selenium.version>
         <json-simple.version>1.1.1</json-simple.version>
-        <config.file>config/sample-test.testng.xml</config.file>
+        <config.file>config/Mobilebis_EAQSWT_SEL_Habitation_proprietaire.testng.xml</config.file>
     </properties>
 
     <dependencies>
@@ -76,10 +76,9 @@
             </plugin>
         </plugins>
     </build>
-
     <profiles>
         <profile>
-            <id>sample-local-test</id>
+            <id>Mobilebis_EAQSWT_SEL_Habitation_locataire</id>
             <build>
                 <plugins>
                     <plugin>
@@ -87,7 +86,7 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <configuration>
                             <suiteXmlFiles>
-                                <suiteXmlFile>config/sample-local-test.testng.xml</suiteXmlFile>
+                                <suiteXmlFile>config/Mobilebis_EAQSWT_SEL_Habitation_locataire.testng.xml</suiteXmlFile>
                             </suiteXmlFiles>
                             <argLine>
                                 -javaagent:${com.browserstack:browserstack-java-sdk:jar}
@@ -99,7 +98,7 @@
         </profile>
 
         <profile>
-            <id>sample-test</id>
+            <id>Mobilebis_EAQSWT_SEL_Habitation_proprietaire</id>
             <build>
                 <plugins>
                     <plugin>
@@ -107,7 +106,7 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <configuration>
                             <suiteXmlFiles>
-                                <suiteXmlFile>config/sample-test.testng.xml</suiteXmlFile>
+                                <suiteXmlFile>config/Mobilebis_EAQSWT_SEL_Habitation_proprietaire.testng.xml</suiteXmlFile>
                             </suiteXmlFiles>
                             <argLine>
                                 -javaagent:${com.browserstack:browserstack-java-sdk:jar}
@@ -118,8 +117,8 @@
             </build>
         </profile>
 
-         <profile>
-            <id>exemple-java-test</id>
+        <profile>
+            <id>Mobilebis_EAQSWT_SEL_Habitation_coproprietaire</id>
             <build>
                 <plugins>
                     <plugin>
@@ -127,7 +126,7 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <configuration>
                             <suiteXmlFiles>
-                                <suiteXmlFile>config/exemple-java-test.testng.xml</suiteXmlFile>
+                                <suiteXmlFile>config/Mobilebis_EAQSWT_SEL_Habitation_coproprietaire.testng.xml</suiteXmlFile>
                             </suiteXmlFiles>
                             <argLine>
                                 -javaagent:${com.browserstack:browserstack-java-sdk:jar}

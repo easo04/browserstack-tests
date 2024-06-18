@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Cross-Platform]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" name="PremierTest-0(failed)" verbose="0">
+  <test thread-count="5" name="Mobile_EAQSWT_SEL_Habitation_proprietaire-0(failed)" verbose="0">
     <classes>
-      <class name="com.browserstack.PremierTest">
+      <class name="com.browserstack.Mobile_EAQSWT_SEL_Habitation_proprietaire">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="addProductToCart"/>
+          <include name="Soumission_simple"/>
         </methods>
-      </class> <!-- com.browserstack.PremierTest -->
+      </class> <!-- com.browserstack.Mobile_EAQSWT_SEL_Habitation_proprietaire -->
     </classes>
-  </test> <!-- PremierTest-0(failed) -->
+  </test> <!-- Mobile_EAQSWT_SEL_Habitation_proprietaire-0(failed) -->
 </suite> <!-- Failed suite [Cross-Platform] -->

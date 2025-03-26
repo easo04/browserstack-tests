@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cross-Platform">
+    <test name="SEL">
+        <classes>
+            <class name="com.browserstack.SEL_Auto_soumissions_simples" />
+        </classes>
+    </test>
+</suite>
